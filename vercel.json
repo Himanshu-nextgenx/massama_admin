@@ -1,12 +1,12 @@
 {
-    "rewrites": [
-        {
-            "source": "/api/:path*",
-            "destination": "https://massma.online/:path*"
-        },
-        {
-            "source": "/(.*)",
-            "destination": "/index.html"
-        }
-    ]
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://massma.online/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
