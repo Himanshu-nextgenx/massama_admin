@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://massma.online/api/:path*"
+      "destination": "http://13.127.237.28:4000/api/:path*"
     },
     {
       "source": "/(.*)",
